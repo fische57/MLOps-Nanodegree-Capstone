@@ -1,5 +1,6 @@
 # ---------------------------------------------------------
 # Copyright (c) Microsoft Corporation. All rights reserved.
+# Modifications based on this Github repository: https://github.com/ons-cherif/Covid19-New-Cases-Classification.git
 # ---------------------------------------------------------
 import json
 import logging
