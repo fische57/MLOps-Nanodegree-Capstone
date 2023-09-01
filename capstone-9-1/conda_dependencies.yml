@@ -1,0 +1,17 @@
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - pandas
+  - pip:
+    - azureml-defaults
+    - inference-schema
+    - azureml-automl-core
+    - azureml-interpret
+    - azureml-automl-runtime
+    - pingouin
+    - lightgbm
+    - joblib
+    - Boruta
+    - xgboost==1.4.2
+  

@@ -1,0 +1,135 @@
+2023-09-01 15:20:34.268 - INFO - 15 - azureml.train.automl.runtime._entrypoints.utils.common._get_cache_data_store:153 - Successfully got the cache data store, caching enabled.
+2023-09-01 15:20:34.269 - INFO - 15 - azureml.train.automl.runtime._entrypoints.utils.common._get_cache_data_store:164 - Took 0.11290502548217773 seconds to retrieve cache data store
+2023-09-01 15:20:34.296 - INFO - 15 - azureml.automl.runtime.shared.run_backed_cache_store._download_cache:76 - No files are available for the cache store locally, downloading files from the Run.
+2023-09-01 15:20:34.970 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:594 - Loading from file cache
+2023-09-01 15:20:34.970 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: load
+2023-09-01 15:20:34.971 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key _CACHE_STORE_KEY_ONNX_CONVERTER_INIT_METADATA_ exists in cache_items
+2023-09-01 15:20:34.972 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=load, HowEnded=Success, Duration=1.76[ms]
+2023-09-01 15:20:34.974 - INFO - 15 - azureml.automl.runtime.experiment_store.__init__:1217 - Requested a new ExperimentStore instance.
+2023-09-01 15:20:34.974 - INFO - 15 - azureml.automl.runtime.experiment_store.__init__:1234 - Created ExperimentStore with ID: 22863440134000.
+2023-09-01 15:20:35.089 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:594 - Loading from file cache
+2023-09-01 15:20:35.089 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: load
+2023-09-01 15:20:35.090 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key _CACHE_STORE_KEY_ONNX_CONVERTER_INIT_METADATA_ exists in cache_items
+2023-09-01 15:20:35.090 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key _CACHE_STORE_KEY_ONNX_CONVERTER_INIT_METADATA_ exists in cache_items
+2023-09-01 15:20:35.090 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key split_keys exists in cache_items
+2023-09-01 15:20:35.090 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurized_cv_split_0 exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurized_cv_split_1 exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurized_cv_split_2 exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/X exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/y exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/sample_weight exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/X_valid exists in cache_items
+2023-09-01 15:20:35.091 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/y_valid exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/sample_weight_valid exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key X_raw exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key y_raw exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key X_raw_valid exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key y_raw_valid exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentData_materialized exists in cache_items
+2023-09-01 15:20:35.092 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentData_lazy exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentData_partitioned exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata_Timeseries exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata_Regression exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata_Classification exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/pipeline exists in cache_items
+2023-09-01 15:20:35.093 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key _CACHE_STORE_KEY_ONNX_CONVERTER_INIT_METADATA_ exists in cache_items
+2023-09-01 15:20:35.094 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key split_keys exists in cache_items
+2023-09-01 15:20:35.094 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurized_cv_split_0 exists in cache_items
+2023-09-01 15:20:35.094 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurized_cv_split_1 exists in cache_items
+2023-09-01 15:20:35.094 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurized_cv_split_2 exists in cache_items
+2023-09-01 15:20:35.094 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/X exists in cache_items
+2023-09-01 15:20:35.095 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/y exists in cache_items
+2023-09-01 15:20:35.095 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/sample_weight exists in cache_items
+2023-09-01 15:20:35.095 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/X_valid exists in cache_items
+2023-09-01 15:20:35.097 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/y_valid exists in cache_items
+2023-09-01 15:20:35.097 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/data/sample_weight_valid exists in cache_items
+2023-09-01 15:20:35.097 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key X_raw exists in cache_items
+2023-09-01 15:20:35.097 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key y_raw exists in cache_items
+2023-09-01 15:20:35.097 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key X_raw_valid exists in cache_items
+2023-09-01 15:20:35.097 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key y_raw_valid exists in cache_items
+2023-09-01 15:20:35.098 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentData_materialized exists in cache_items
+2023-09-01 15:20:35.098 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentData_lazy exists in cache_items
+2023-09-01 15:20:35.098 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentData_partitioned exists in cache_items
+2023-09-01 15:20:35.098 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata_Timeseries exists in cache_items
+2023-09-01 15:20:35.098 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata_Regression exists in cache_items
+2023-09-01 15:20:35.098 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata_Classification exists in cache_items
+2023-09-01 15:20:35.099 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key ExperimentMetadata exists in cache_items
+2023-09-01 15:20:35.099 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.load:611 - load() => key featurization/pipeline exists in cache_items
+2023-09-01 15:20:35.100 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=load, HowEnded=Success, Duration=10.3[ms]
+2023-09-01 15:20:35.101 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.101 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentData_materialized
+2023-09-01 15:20:35.101 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.62[ms]
+2023-09-01 15:20:35.102 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.102 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentData_lazy
+2023-09-01 15:20:35.102 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.37[ms]
+2023-09-01 15:20:35.102 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.102 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentData_partitioned
+2023-09-01 15:20:35.103 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.41[ms]
+2023-09-01 15:20:35.103 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.103 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentMetadata
+2023-09-01 15:20:35.103 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.36[ms]
+2023-09-01 15:20:35.104 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.104 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentMetadata_Timeseries
+2023-09-01 15:20:35.104 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.37[ms]
+2023-09-01 15:20:35.104 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.104 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentMetadata_Regression
+2023-09-01 15:20:35.105 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.36[ms]
+2023-09-01 15:20:35.105 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.105 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: ExperimentMetadata_Classification
+2023-09-01 15:20:35.105 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.37[ms]
+2023-09-01 15:20:35.108 - INFO - 15 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping enabled: False
+2023-09-01 15:20:35.109 - INFO - 15 - azureml.automl.runtime.featurization.data_transformer.__init__:191 - Feature sweeping timeout: 86400
+2023-09-01 15:20:35.143 - INFO - 15 - azureml.train.automl.runtime._automl_job_phases.training_iteration_phase.run:48 - Beginning the training iteration for run AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44.
+2023-09-01 15:20:35.143 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2023-09-01 15:20:35.144 - INFO - 15 - azureml.automl.runtime.shared.lazy_file_cache_store.get:426 - Getting data for key: split_keys
+2023-09-01 15:20:35.144 - INFO - 15 - azureml.automl.runtime.shared.cache_store._log_activity:89 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.83[ms]
+2023-09-01 15:20:35.144 - INFO - 15 - azureml.train.automl.runtime._automl_job_phases.training_iteration_phase.run:58 - Number of cross-validations in dataset is 3.
+2023-09-01 15:20:35.146 - INFO - 15 - azureml.automl.runtime.fit_pipeline.log_system_info:399 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44]CPU logical cores: 4, CPU cores: 4, virtual memory: 14654386176, swap memory: 14654382080.
+2023-09-01 15:20:35.146 - INFO - 15 - azureml.automl.runtime.fit_pipeline.log_system_info:410 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44]Platform information: Linux.
+2023-09-01 15:20:35.160 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Starting fit_pipeline]memory usage 508796928
+2023-09-01 15:20:35.161 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Starting fit_pipeline]child memory usage 508796928
+2023-09-01 15:20:35.161 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Starting fit_pipeline]cpu time 7.095901
+2023-09-01 15:20:35.161 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Starting fit_pipeline]child cpu time 0.0
+2023-09-01 15:20:35.162 - INFO - 15 - azureml.automl.runtime.fit_pipeline._check_iteration_time:804 - Component PrepareData finished after 0.00026563333333333336 minutes.
+2023-09-01 15:20:35.170 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Before executing pipeline]memory usage 508829696
+2023-09-01 15:20:35.170 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Before executing pipeline]child memory usage 508829696
+2023-09-01 15:20:35.171 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Before executing pipeline]cpu time 7.099973
+2023-09-01 15:20:35.171 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][Before executing pipeline]child cpu time 0.0
+2023-09-01 15:20:35.171 - INFO - 15 - azureml.automl.runtime.pipeline_run_helper._log_activity:55 - ActivityStarted: RunPipeline
+2023-09-01 15:20:35.346 - INFO - 15 - azureml.automl.runtime.shared.resource_limits.__init__:78 - Limits set to mem_in_mb=None, wall_time_in_s=1800, total_wall_time_in_s=31449600, cpu_time_in_s=None, num_processes=None, grace_period_in_s=None, 
+2023-09-01 15:20:35.347 - INFO - 15 - azureml.automl.runtime.shared.limit_function_call_spawn.execute:98 - Calling function <bound method ClientRunner._run_ensembling_internal of <azureml.automl.runtime.shared.runner.ClientRunner object at 0x14caedaa7040>> with argument types: [<class 'azureml.automl.runtime.shared.pipeline_spec.PipelineSpec'>, <class 'azureml.automl.runtime.shared.problem_info.ProblemInfo'>], {'sets_to_run': <class 'list'>, 'subsample_percent': <class 'float'>, 'random_state': <class 'NoneType'>, 'subsample_seed': <class 'NoneType'>, 'include_models': <class 'bool'>, 'compute_metrics_for_train_full': <class 'bool'>, 'cache_store': <class 'azureml.automl.runtime.shared.run_backed_cache_store.RunBackedCacheStore'>}
+2023-09-01 15:21:17.449 - INFO - 15 - azureml.automl.runtime.pipeline_run_helper._log_activity:89 - ActivityCompleted: Activity=RunPipeline, HowEnded=Success, Duration=42278.1[ms]
+2023-09-01 15:21:17.451 - INFO - 15 - azureml.automl.runtime.fit_pipeline._fit_pipeline_internal:288 - Pipeline execution finished with a score of 0.9818135390923198
+2023-09-01 15:21:17.484 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][After executing pipeline]memory usage 549146624
+2023-09-01 15:21:17.485 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][After executing pipeline]child memory usage 549146624
+2023-09-01 15:21:17.485 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][After executing pipeline]cpu time 7.86764
+2023-09-01 15:21:17.485 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][After executing pipeline]child cpu time 28.986797
+2023-09-01 15:21:17.486 - INFO - 15 - azureml.automl.runtime.fit_pipeline._log_activity:55 - ActivityStarted: SaveModelArtifacts
+2023-09-01 15:21:17.486 - INFO - 15 - azureml.automl.runtime.fit_pipeline._get_fitted_models_path_dict:621 - Saving the partially trained fitted models.
+2023-09-01 15:21:31.186 - INFO - 15 - azureml.automl.runtime.automl_run_context._get_env_metadata:355 - mlflow metadata base_image: {'azureml.base_image': 'mcr.microsoft.com/azureml/curated/azureml-automl:142', 'azureml.engine': 'automl'}
+2023-09-01 15:21:31.188 - INFO - 15 - azureml.automl.runtime.automl_run_context._save_mlflow_model:273 - Logging MLFlow model to tracking store.
+2023-09-01 15:21:31.189 - INFO - 15 - azureml.automl.runtime.automl_run_context._save_mlflow_model:286 - Saving sklearn model to outputs/mlflow-model.
+2023-09-01 15:21:33.321 - INFO - 15 - azureml.automl.runtime.automl_run_context._save_mlflow_model:294 - Saved mlflow model successfully.
+2023-09-01 15:21:34.348 - INFO - 15 - azureml.automl.runtime.fit_pipeline._save_artifacts_internal:495 - Updating child run properties with model name AutoML9d4ad407d44 and size 4137568 bytes.
+2023-09-01 15:21:34.459 - INFO - 15 - azureml.automl.runtime.fit_pipeline._log_activity:89 - ActivityCompleted: Activity=SaveModelArtifacts, HowEnded=Success, Duration=16973.36[ms]
+2023-09-01 15:21:34.460 - WARNING - 15 - azureml.automl.runtime._metrics_logging.log_metrics:37 - Skipping logging uncomputed binary metric AUC_binary
+2023-09-01 15:21:34.460 - WARNING - 15 - azureml.automl.runtime._metrics_logging.log_metrics:37 - Skipping logging uncomputed binary metric average_precision_score_binary
+2023-09-01 15:21:34.460 - WARNING - 15 - azureml.automl.runtime._metrics_logging.log_metrics:37 - Skipping logging uncomputed binary metric precision_score_binary
+2023-09-01 15:21:34.460 - WARNING - 15 - azureml.automl.runtime._metrics_logging.log_metrics:37 - Skipping logging uncomputed binary metric recall_score_binary
+2023-09-01 15:21:34.460 - WARNING - 15 - azureml.automl.runtime._metrics_logging.log_metrics:37 - Skipping logging uncomputed binary metric f1_score_binary
+2023-09-01 15:21:34.460 - WARNING - 15 - azureml.automl.runtime._metrics_logging.log_metrics:48 - Unknown metric models. Will not log.
+2023-09-01 15:21:34.917 - INFO - 15 - azureml.automl.runtime._metrics_logging.log_metrics_info:96 - run_id:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44, pipeline_id:__AutoML_Ensemble__,The following metrics have been logged for the child run: {'matthews_correlation': 0.8355888249634171, 'accuracy_table': <class 'dict'>, 'recall_score_macro': 0.9090717226072794, 'AUC_binary': 0.9818135390923198, 'log_loss': 0.18163475059732317, 'f1_score_micro': 0.9358974358974358, 'f1_score_macro': 0.9167662479990715, 'AUC_macro': 0.9818135390923198, 'average_precision_score_binary': 0.9568150785276873, 'confusion_matrix': <class 'dict'>, 'recall_score_micro': 0.9358974358974358, 'precision_score_binary': 0.9090732152191562, 'average_precision_score_macro': 0.974889211619922, 'average_precision_score_micro': 0.9859201126334819, 'precision_score_weighted': 0.9359892584221837, 'AUC_weighted': 0.9818135390923198, 'norm_macro_recall': 0.818143445214559, 'balanced_accuracy': 0.9090717226072794, 'f1_score_weighted': 0.9350900605012252, 'recall_score_binary': 0.8490017720983921, 'accuracy': 0.9358974358974358, 'AUC_micro': 0.985636007142607, 'weighted_accuracy': 0.9536249440823967, 'recall_score_weighted': 0.9358974358974358, 'f1_score_binary': 0.876920967418705, 'average_precision_score_weighted': 0.983473358651151, 'precision_score_micro': 0.9358974358974358, 'precision_score_macro': 0.9269063649657485, 'predict_time': 0.21297566666666667, 'models': <class 'dict'>}.
+2023-09-01 15:21:35.273 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][End fit_pipeline]memory usage 573968384
+2023-09-01 15:21:35.274 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][End fit_pipeline]child memory usage 573968384
+2023-09-01 15:21:35.274 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][End fit_pipeline]cpu time 9.970145
+2023-09-01 15:21:35.275 - INFO - 15 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - [RunId:AutoML_9d4ad407-d089-41e7-85f1-fc88df4ab866_44][End fit_pipeline]child cpu time 40.757446
+2023-09-01 15:21:35.275 - INFO - 15 - azureml.train.automl.runtime._automl_job_phases.training_iteration_phase.run:76 - Child run completed with AUC_weighted=0.9818135390923198 after 31 seconds.
+2023-09-01 15:21:35.370 - INFO - 15 - azureml.train.automl.runtime._entrypoints.remote.training_run.execute:84 - Code generation enabled: True
+2023-09-01 15:21:35.371 - INFO - 15 - azureml.train.automl.runtime._code_generation.utilities.generate_code:52 - Generating code for the trained model.
+2023-09-01 15:21:38.247 - INFO - 15 - azureml.train.automl.runtime._code_generation.utilities.generate_model_code_and_notebook:176 - Script has been generated, output saved to outputs/generated_code/script.py
+2023-09-01 15:21:39.218 - INFO - 15 - azureml.train.automl.runtime._code_generation.notebook_generator.get_template:127 - Loading notebook script_run
+2023-09-01 15:21:39.225 - INFO - 15 - azureml.train.automl.runtime._code_generation.notebook_generator.generate_script_run_notebook:174 - Notebook arguments: {'compute_sku', 'subscription_id', 'resource_group', 'environment_version', 'script_arguments', 'child_run_url', 'compute_target', 'automl_child_run_id', 'environment_name', 'workspace_name', 'script_filename', 'experiment_name'}
+2023-09-01 15:21:39.472 - INFO - 15 - azureml.train.automl.runtime._code_generation.notebook_generator.generate_notebook:80 - Unused arguments: {'training_package'}
+2023-09-01 15:21:39.705 - INFO - 15 - azureml.train.automl.runtime._code_generation.utilities.generate_model_code_and_notebook:194 - Notebook has been generated, output saved to outputs/generated_code/script_run_notebook.ipynb
+2023-09-01 15:21:39.802 - INFO - 15 - azureml.automl.runtime.experiment_store.reset:1255 - Resetting ExpeirmentStore ID: 22863440134000
