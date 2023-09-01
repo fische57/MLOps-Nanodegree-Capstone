@@ -9,9 +9,6 @@ dependencies:
     - azureml-automl-core
     - azureml-interpret
     - azureml-automl-runtime
-    - pingouin
-    - lightgbm
     - joblib
-    - Boruta
     - xgboost==1.4.2
   
