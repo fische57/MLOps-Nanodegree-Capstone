@@ -2,6 +2,10 @@
 
 This project serves as the capstone to the Machine Learning Engineer with Microsoft Azure Nanodegree. 
 
+### Task
+
+To predict when a pregnant patient is at high risk based on their Age, Systolic Blood Pressure, Diastolic Blood Pressure, Blood Sugar, Body Temperature, and Heart Rate, I will create two models: one using Automated ML (AutoML) and one customized model whose hyperparameters are tuned using HyperDrive. I will then compare the performance of both the models and deploy the best performing model.
+
 ## Project Set Up and Installation
 In Azure, a workspace must be configured, and a compute instance allocated. Because I did this project as part of a Udacity Nanodegree, these resources were provided. 
 
@@ -11,13 +15,10 @@ In Azure, a workspace must be configured, and a compute instance allocated. Beca
 
 The data comes from this kaggle source: https://www.kaggle.com/datasets/pyuxbhatt/maternal-health-risk 
 
-It includes the Age, Systolic Blood Pressure, Diastolic Blood Pressure, Blood Sugar, Body Temperature, Heart Rate, and associated maternal health risk of 1014 unidentified patients. 
+It includes the Age, Systolic Blood Pressure, Diastolic Blood Pressure, Blood Sugar, Body Temperature, Heart Rate, and associated Maternal Health Risk of 1014 unidentified patients. 
 
-From this link, I downloaded the csv. In MS Excel, I modified the outcome column so that instead of classifing between Low Risk, Medium Risk, and High Risk, there is just one binary column called HighRisk. I am only interested in predicting high risk pregnancies. 
+From this link, I downloaded the csv. In MS Excel, I modified the outcome column so that instead of classifying between Low Risk, Medium Risk, and High Risk, there is just one binary column called HighRisk. I am only interested in predicting high risk pregnancies. 
 
-### Task
-
-To predict when a patient is at high risk based on their Age, Systolic Blood Pressure, Diastolic Blood Pressure, Blood Sugar, Body Temperature, and Heart Rate, I will create two models: one using Automated ML (AutoML) and one customized model whose hyperparameters are tuned using HyperDrive. I will then compare the performance of both the models and deploy the best performing model.
 
 ### Access
 
@@ -39,7 +40,8 @@ Additionally, training time was limited to 0.5 hours, and a maximum of 3 concurr
 
 ### Results
 
-The best AutoML model was VotingEnsemble with a weighted AUC of 0.98181354 and an accuracy of 0.93590. The Ensemble used a StandardScalerWrapper with an XGBoost classifier. 
+The best AutoML model was a VotingEnsemble algorithm that compared several classification models and selected the best one. It had an ensemble weight of 0.125. It ensembled several classifier/scaler combinations. The combination chosen by the voting ensemble used a StandardScalerWrapper with an XGBoost classifier, with a weighted AUC of 0.98181354 and an accuracy of 0.93590. See the final screenshot below for the code provided by AutoML showing exactly how the parameters were set for data transformation and for the training algorithm under Ensemble Details. 
+
 ![image](https://github.com/fische57/Nanodegree-Capstone-MLOps/assets/52047242/df548465-3427-41fe-8afb-9a473a263c36)
 ![image](https://github.com/fische57/Nanodegree-Capstone-MLOps/assets/52047242/843be94d-b080-4fc1-8162-d6f0a01ebcc5)
 ![image](https://github.com/fische57/Nanodegree-Capstone-MLOps/assets/52047242/10e50c3a-98ec-46e6-9472-6876f3f784fe)
@@ -74,6 +76,9 @@ The best AutoML model was deployed using code in the automl.ipynb. Once deployed
 
 ![image](https://github.com/fische57/Nanodegree-Capstone-MLOps/assets/52047242/698da9fb-dae2-46ef-bf26-3aa61bfae229)
 
+## How to Improve
+
+To improve this project, I must identify the reason that several of the hyperdrive configurations resulted in 100% accuracy. There may be overfitting or data leakage, and if there is data leakage, neither model will be valid in production. Another way to improve would be to further delve into which variables were most predictive in determining maternal health risk. From my testing, increasing the Blood Sugar variable to 15.0 guaranteed a result of 1 (High Risk). It would be interesting to better understand the relationships of these variables in the prediction to provide data-driven guidance to pregnant patients. Another step for a polished project would be to deply my model to the Edge using Azure IoT Edge. This would require an additional jupyter notebook.
 
 ## Screen Recording
 Link to screen recording: https://youtu.be/pete0JNMyHU
